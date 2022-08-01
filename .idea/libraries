@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="libraryTable">
+    <library name="root">
+      <CLASSES>
+        <root url="file://$USER_HOME$/Documents/root" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/Documents/root/backoffice/src/main/java" />
+        <root url="file://$USER_HOME$/Documents/root/backoffice/src/test/java" />
+        <root url="file://$USER_HOME$/Documents/root/cashback/src/main/java" />
+        <root url="file://$USER_HOME$/Documents/root/cashback/src/test/java" />
+        <root url="file://$USER_HOME$/Documents/root/datawarehouse/src/main/java" />
+        <root url="file://$USER_HOME$/Documents/root/datawarehouse/src/test/java" />
+      </SOURCES>
+    </library>
+    <library name="sharingan">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/Documents/sharingan/datawarehouse/src/main/java" />
+        <root url="file://$USER_HOME$/Documents/sharingan/datawarehouse/src/test/java" />
+        <root url="file://$USER_HOME$/Documents/sharingan/openeye/src/main/java" />
+        <root url="file://$USER_HOME$/Documents/sharingan/openeye/src/test/java" />
+      </SOURCES>
+    </library>
+  </component>
+</project>

@@ -1,0 +1,581 @@
+{
+  "serverMaxRevisionCounter": 632,
+  "sourceMembers": {
+    "AuraDefinitionBundle__Demo": {
+      "serverRevisionCounter": 492,
+      "lastRetrievedFromServer": 492,
+      "memberType": "AuraDefinitionBundle",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Demo/Demo.app": {
+      "serverRevisionCounter": 493,
+      "lastRetrievedFromServer": 493,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Demo/DemoController.js": {
+      "serverRevisionCounter": 494,
+      "lastRetrievedFromServer": 494,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Demo/DemoHelper.js": {
+      "serverRevisionCounter": 495,
+      "lastRetrievedFromServer": 495,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Demo/Demo.css": {
+      "serverRevisionCounter": 496,
+      "lastRetrievedFromServer": 496,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Demo/Demo.auradoc": {
+      "serverRevisionCounter": 497,
+      "lastRetrievedFromServer": 497,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Demo/DemoRenderer.js": {
+      "serverRevisionCounter": 498,
+      "lastRetrievedFromServer": 498,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Demo/Demo.svg": {
+      "serverRevisionCounter": 499,
+      "lastRetrievedFromServer": 499,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__greetTextLWC": {
+      "serverRevisionCounter": 480,
+      "lastRetrievedFromServer": 480,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__greetTextLWC/greetTextLWC.html": {
+      "serverRevisionCounter": 481,
+      "lastRetrievedFromServer": 481,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__greetTextLWC/greetTextLWC.js-meta.xml": {
+      "serverRevisionCounter": 482,
+      "lastRetrievedFromServer": 482,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__greetTextLWC/greetTextLWC.js": {
+      "serverRevisionCounter": 483,
+      "lastRetrievedFromServer": 483,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "Profile__Admin": {
+      "serverRevisionCounter": 38,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "ApexClass__AbstractController": {
+      "serverRevisionCounter": 534,
+      "lastRetrievedFromServer": 534,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__TestingApiController": {
+      "serverRevisionCounter": 400,
+      "lastRetrievedFromServer": 400,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "Settings__Security": {
+      "serverRevisionCounter": 47,
+      "lastRetrievedFromServer": null,
+      "memberType": "Settings",
+      "isNameObsolete": false
+    },
+    "ApexClass__TestingModel": {
+      "serverRevisionCounter": 51,
+      "lastRetrievedFromServer": 51,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ListView__Knowledge__kav.draft_articles": {
+      "serverRevisionCounter": 109,
+      "lastRetrievedFromServer": null,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Knowledge__kav.published_articles": {
+      "serverRevisionCounter": 110,
+      "lastRetrievedFromServer": null,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Knowledge__kav.archived_articles": {
+      "serverRevisionCounter": 111,
+      "lastRetrievedFromServer": null,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "Queue__Service_Case": {
+      "serverRevisionCounter": 115,
+      "lastRetrievedFromServer": null,
+      "memberType": "Queue",
+      "isNameObsolete": false
+    },
+    "Queue__Service_Chat": {
+      "serverRevisionCounter": 251,
+      "lastRetrievedFromServer": null,
+      "memberType": "Queue",
+      "isNameObsolete": false
+    },
+    "CustomField__Knowledge__kav.Question__c": {
+      "serverRevisionCounter": 355,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Knowledge__kav.Content__c": {
+      "serverRevisionCounter": 357,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Knowledge__kav.InternalNotes__c": {
+      "serverRevisionCounter": 359,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Knowledge__kav.DigitalEngagementResponse__c": {
+      "serverRevisionCounter": 361,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "EmailTemplate__unfiled$public/Case_Created_or_Updated_Sample_1659153153061": {
+      "serverRevisionCounter": 118,
+      "lastRetrievedFromServer": null,
+      "memberType": "EmailTemplate",
+      "isNameObsolete": false
+    },
+    "EmailTemplate__unfiled$public/Case_Assigned_Sample_1659153153373": {
+      "serverRevisionCounter": 119,
+      "lastRetrievedFromServer": null,
+      "memberType": "EmailTemplate",
+      "isNameObsolete": false
+    },
+    "EmailTemplate__unfiled$public/Email_to_Case_Sample_1659153153450": {
+      "serverRevisionCounter": 120,
+      "lastRetrievedFromServer": null,
+      "memberType": "EmailTemplate",
+      "isNameObsolete": false
+    },
+    "EmailTemplate__unfiled$public/Web_to_Case_Sample_1659153153524": {
+      "serverRevisionCounter": 121,
+      "lastRetrievedFromServer": null,
+      "memberType": "EmailTemplate",
+      "isNameObsolete": false
+    },
+    "EmailTemplate__unfiled$public/Case_Closed_Sample_1659153153599": {
+      "serverRevisionCounter": 122,
+      "lastRetrievedFromServer": null,
+      "memberType": "EmailTemplate",
+      "isNameObsolete": false
+    },
+    "EmailTemplate__unfiled$public/Embed_a_Survey_Link": {
+      "serverRevisionCounter": 123,
+      "lastRetrievedFromServer": null,
+      "memberType": "EmailTemplate",
+      "isNameObsolete": false
+    },
+    "EmailTemplate__unfiled$public/Embed_a_Survey_Question": {
+      "serverRevisionCounter": 124,
+      "lastRetrievedFromServer": null,
+      "memberType": "EmailTemplate",
+      "isNameObsolete": false
+    },
+    "Profile__Service Agent": {
+      "serverRevisionCounter": 300,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "Profile__Service Supervisor": {
+      "serverRevisionCounter": 301,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "Profile__Knowledge Manager": {
+      "serverRevisionCounter": 112,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "Layout__Knowledge__kav-Knowledge Layout": {
+      "serverRevisionCounter": 376,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Global-Global Layout": {
+      "serverRevisionCounter": 394,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "CustomObject__Knowledge__kav": {
+      "serverRevisionCounter": 104,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "AutoResponseRule__Case.Sample Case Auto-Response Rule": {
+      "serverRevisionCounter": 237,
+      "lastRetrievedFromServer": null,
+      "memberType": "AutoResponseRule",
+      "isNameObsolete": false
+    },
+    "CustomTab__Knowledge__kav": {
+      "serverRevisionCounter": 105,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomApplication__standard__PreconfiguredLightningServiceConsole": {
+      "serverRevisionCounter": 66,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomApplication",
+      "isNameObsolete": false
+    },
+    "ApprovalProcess__KnowledgeArticle.KBWorkflow": {
+      "serverRevisionCounter": 95,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApprovalProcess",
+      "isNameObsolete": false
+    },
+    "ApprovalProcess__KnowledgeArticleVersion.KBTranslationSubWorkflow": {
+      "serverRevisionCounter": 99,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApprovalProcess",
+      "isNameObsolete": false
+    },
+    "EmailServicesFunction__EmailToCase": {
+      "serverRevisionCounter": 117,
+      "lastRetrievedFromServer": null,
+      "memberType": "EmailServicesFunction",
+      "isNameObsolete": false
+    },
+    "QuickAction__KnowledgeArticlePreconfigured": {
+      "serverRevisionCounter": 379,
+      "lastRetrievedFromServer": null,
+      "memberType": "QuickAction",
+      "isNameObsolete": false
+    },
+    "CompactLayout__Knowledge__kav.Knowledgekav": {
+      "serverRevisionCounter": 378,
+      "lastRetrievedFromServer": null,
+      "memberType": "CompactLayout",
+      "isNameObsolete": false
+    },
+    "QueueRoutingConfig__Service_Routing_Chat": {
+      "serverRevisionCounter": 250,
+      "lastRetrievedFromServer": null,
+      "memberType": "QueueRoutingConfig",
+      "isNameObsolete": false
+    },
+    "FlexiPage__PreconfiguredLightningServiceConsole_UtilityBar": {
+      "serverRevisionCounter": 248,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "FlexiPage__CaseDefault_Record_Page": {
+      "serverRevisionCounter": 353,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "ServicePresenceStatus__Busy": {
+      "serverRevisionCounter": 238,
+      "lastRetrievedFromServer": null,
+      "memberType": "ServicePresenceStatus",
+      "isNameObsolete": false
+    },
+    "ServicePresenceStatus__Chat_Available": {
+      "serverRevisionCounter": 249,
+      "lastRetrievedFromServer": null,
+      "memberType": "ServicePresenceStatus",
+      "isNameObsolete": false
+    },
+    "PermissionSet__Knowledge_Manager_958441": {
+      "serverRevisionCounter": 114,
+      "lastRetrievedFromServer": null,
+      "memberType": "PermissionSet",
+      "isNameObsolete": false
+    },
+    "PermissionSet__Service_Chat": {
+      "serverRevisionCounter": 254,
+      "lastRetrievedFromServer": null,
+      "memberType": "PermissionSet",
+      "isNameObsolete": false
+    },
+    "RecordActionDeployment__setup_service_experience_SupportFlows": {
+      "serverRevisionCounter": 303,
+      "lastRetrievedFromServer": null,
+      "memberType": "RecordActionDeployment",
+      "isNameObsolete": false
+    },
+    "ChannelLayout__Channel_Mapping_Email_Preconfigured": {
+      "serverRevisionCounter": 395,
+      "lastRetrievedFromServer": null,
+      "memberType": "ChannelLayout",
+      "isNameObsolete": false
+    },
+    "ChannelLayout__Channel_Mapping_Chat_Preconfigured": {
+      "serverRevisionCounter": 396,
+      "lastRetrievedFromServer": null,
+      "memberType": "ChannelLayout",
+      "isNameObsolete": false
+    },
+    "Flow__net_promoter_score": {
+      "serverRevisionCounter": 176,
+      "lastRetrievedFromServer": null,
+      "memberType": "Flow",
+      "isNameObsolete": false
+    },
+    "Flow__customer_satisfaction": {
+      "serverRevisionCounter": 234,
+      "lastRetrievedFromServer": null,
+      "memberType": "Flow",
+      "isNameObsolete": false
+    },
+    "AppMenu__AppSwitcher": {
+      "serverRevisionCounter": 64,
+      "lastRetrievedFromServer": null,
+      "memberType": "AppMenu",
+      "isNameObsolete": false
+    },
+    "Settings__Case": {
+      "serverRevisionCounter": 235,
+      "lastRetrievedFromServer": null,
+      "memberType": "Settings",
+      "isNameObsolete": false
+    },
+    "StandardValueSet__CaseStatus": {
+      "serverRevisionCounter": 259,
+      "lastRetrievedFromServer": null,
+      "memberType": "StandardValueSet",
+      "isNameObsolete": false
+    },
+    "CustomField__Account.TotalContacts__c": {
+      "serverRevisionCounter": 401,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Contact.Active__c": {
+      "serverRevisionCounter": 410,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Contact.Counter__c": {
+      "serverRevisionCounter": 419,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Account.Counter__c": {
+      "serverRevisionCounter": 428,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "Layout__Account-Account (Marketing) Layout": {
+      "serverRevisionCounter": 429,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Account-Account (Sales) Layout": {
+      "serverRevisionCounter": 430,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Account-Account (Support) Layout": {
+      "serverRevisionCounter": 431,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Account-Account Layout": {
+      "serverRevisionCounter": 432,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Contact-Contact (Marketing) Layout": {
+      "serverRevisionCounter": 420,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Contact-Contact (Sales) Layout": {
+      "serverRevisionCounter": 421,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Contact-Contact (Support) Layout": {
+      "serverRevisionCounter": 422,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Contact-Contact Layout": {
+      "serverRevisionCounter": 423,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "ApexClass__AccountApiController": {
+      "serverRevisionCounter": 624,
+      "lastRetrievedFromServer": 624,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__AccountService": {
+      "serverRevisionCounter": 601,
+      "lastRetrievedFromServer": 601,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__ContactService": {
+      "serverRevisionCounter": 626,
+      "lastRetrievedFromServer": 626,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__RecordModel": {
+      "serverRevisionCounter": 631,
+      "lastRetrievedFromServer": 631,
+      "memberType": "ApexClass",
+      "isNameObsolete": true
+    },
+    "ApexClass__RecordService": {
+      "serverRevisionCounter": 608,
+      "lastRetrievedFromServer": 608,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexTrigger__ContactTrigger": {
+      "serverRevisionCounter": 547,
+      "lastRetrievedFromServer": 547,
+      "memberType": "ApexTrigger",
+      "isNameObsolete": false
+    },
+    "ApexTrigger__DeactiveContactTrigger": {
+      "serverRevisionCounter": 548,
+      "lastRetrievedFromServer": 548,
+      "memberType": "ApexTrigger",
+      "isNameObsolete": false
+    },
+    "AuraDefinitionBundle__SearchingRecords": {
+      "serverRevisionCounter": 484,
+      "lastRetrievedFromServer": 484,
+      "memberType": "AuraDefinitionBundle",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__SearchingRecords/SearchingRecords.app": {
+      "serverRevisionCounter": 485,
+      "lastRetrievedFromServer": 485,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__SearchingRecords/SearchingRecordsController.js": {
+      "serverRevisionCounter": 486,
+      "lastRetrievedFromServer": 486,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__SearchingRecords/SearchingRecordsHelper.js": {
+      "serverRevisionCounter": 487,
+      "lastRetrievedFromServer": 487,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__SearchingRecords/SearchingRecords.css": {
+      "serverRevisionCounter": 488,
+      "lastRetrievedFromServer": 488,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__SearchingRecords/SearchingRecords.auradoc": {
+      "serverRevisionCounter": 489,
+      "lastRetrievedFromServer": 489,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__SearchingRecords/SearchingRecordsRenderer.js": {
+      "serverRevisionCounter": 490,
+      "lastRetrievedFromServer": 490,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__SearchingRecords/SearchingRecords.svg": {
+      "serverRevisionCounter": 491,
+      "lastRetrievedFromServer": 491,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "ApexClass__APIWrapper": {
+      "serverRevisionCounter": 632,
+      "lastRetrievedFromServer": 632,
+      "memberType": "ApexClass",
+      "isNameObsolete": true
+    },
+    "ApexClass__ContactApiController": {
+      "serverRevisionCounter": 625,
+      "lastRetrievedFromServer": 625,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__RecordsSearchController": {
+      "serverRevisionCounter": 554,
+      "lastRetrievedFromServer": 554,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__RecordsGraphQLController": {
+      "serverRevisionCounter": 627,
+      "lastRetrievedFromServer": 627,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexTrigger__BatchUpdateContactsTrigger": {
+      "serverRevisionCounter": 628,
+      "lastRetrievedFromServer": 628,
+      "memberType": "ApexTrigger",
+      "isNameObsolete": false
+    },
+    "ApexClass__BatchRequest": {
+      "serverRevisionCounter": 629,
+      "lastRetrievedFromServer": 629,
+      "memberType": "ApexClass",
+      "isNameObsolete": true
+    },
+    "ApexClass__BatchUpdateContactRequestdata": {
+      "serverRevisionCounter": 630,
+      "lastRetrievedFromServer": 630,
+      "memberType": "ApexClass",
+      "isNameObsolete": true
+    }
+  }
+}
