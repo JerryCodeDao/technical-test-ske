@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 632,
+  "serverMaxRevisionCounter": 1365,
   "sourceMembers": {
     "AuraDefinitionBundle__Demo": {
       "serverRevisionCounter": 492,
@@ -80,8 +80,8 @@
       "isNameObsolete": false
     },
     "ApexClass__AbstractController": {
-      "serverRevisionCounter": 534,
-      "lastRetrievedFromServer": 534,
+      "serverRevisionCounter": 1353,
+      "lastRetrievedFromServer": 1353,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
@@ -464,14 +464,14 @@
       "isNameObsolete": false
     },
     "ApexClass__RecordModel": {
-      "serverRevisionCounter": 631,
-      "lastRetrievedFromServer": 631,
+      "serverRevisionCounter": 1346,
+      "lastRetrievedFromServer": 1346,
       "memberType": "ApexClass",
-      "isNameObsolete": true
+      "isNameObsolete": false
     },
     "ApexClass__RecordService": {
-      "serverRevisionCounter": 608,
-      "lastRetrievedFromServer": 608,
+      "serverRevisionCounter": 1347,
+      "lastRetrievedFromServer": 1347,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
@@ -488,58 +488,58 @@
       "isNameObsolete": false
     },
     "AuraDefinitionBundle__SearchingRecords": {
-      "serverRevisionCounter": 484,
-      "lastRetrievedFromServer": 484,
+      "serverRevisionCounter": 657,
+      "lastRetrievedFromServer": 657,
       "memberType": "AuraDefinitionBundle",
       "isNameObsolete": false
     },
     "AuraDefinition__SearchingRecords/SearchingRecords.app": {
-      "serverRevisionCounter": 485,
-      "lastRetrievedFromServer": 485,
+      "serverRevisionCounter": 658,
+      "lastRetrievedFromServer": 658,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__SearchingRecords/SearchingRecordsController.js": {
-      "serverRevisionCounter": 486,
-      "lastRetrievedFromServer": 486,
+      "serverRevisionCounter": 659,
+      "lastRetrievedFromServer": 659,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__SearchingRecords/SearchingRecordsHelper.js": {
-      "serverRevisionCounter": 487,
-      "lastRetrievedFromServer": 487,
+      "serverRevisionCounter": 660,
+      "lastRetrievedFromServer": 660,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__SearchingRecords/SearchingRecords.css": {
-      "serverRevisionCounter": 488,
-      "lastRetrievedFromServer": 488,
+      "serverRevisionCounter": 661,
+      "lastRetrievedFromServer": 661,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__SearchingRecords/SearchingRecords.auradoc": {
-      "serverRevisionCounter": 489,
-      "lastRetrievedFromServer": 489,
+      "serverRevisionCounter": 662,
+      "lastRetrievedFromServer": 662,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__SearchingRecords/SearchingRecordsRenderer.js": {
-      "serverRevisionCounter": 490,
-      "lastRetrievedFromServer": 490,
+      "serverRevisionCounter": 663,
+      "lastRetrievedFromServer": 663,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__SearchingRecords/SearchingRecords.svg": {
-      "serverRevisionCounter": 491,
-      "lastRetrievedFromServer": 491,
+      "serverRevisionCounter": 664,
+      "lastRetrievedFromServer": 664,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "ApexClass__APIWrapper": {
-      "serverRevisionCounter": 632,
-      "lastRetrievedFromServer": 632,
+      "serverRevisionCounter": 747,
+      "lastRetrievedFromServer": 747,
       "memberType": "ApexClass",
-      "isNameObsolete": true
+      "isNameObsolete": false
     },
     "ApexClass__ContactApiController": {
       "serverRevisionCounter": 625,
@@ -548,8 +548,8 @@
       "isNameObsolete": false
     },
     "ApexClass__RecordsSearchController": {
-      "serverRevisionCounter": 554,
-      "lastRetrievedFromServer": 554,
+      "serverRevisionCounter": 652,
+      "lastRetrievedFromServer": 652,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
@@ -566,16 +566,46 @@
       "isNameObsolete": false
     },
     "ApexClass__BatchRequest": {
-      "serverRevisionCounter": 629,
-      "lastRetrievedFromServer": 629,
+      "serverRevisionCounter": 649,
+      "lastRetrievedFromServer": 649,
       "memberType": "ApexClass",
-      "isNameObsolete": true
+      "isNameObsolete": false
     },
     "ApexClass__BatchUpdateContactRequestdata": {
-      "serverRevisionCounter": 630,
-      "lastRetrievedFromServer": 630,
+      "serverRevisionCounter": 650,
+      "lastRetrievedFromServer": 650,
       "memberType": "ApexClass",
-      "isNameObsolete": true
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__searchRecordLWC": {
+      "serverRevisionCounter": 1362,
+      "lastRetrievedFromServer": 1362,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__searchRecordLWC/searchRecordLWC.html": {
+      "serverRevisionCounter": 1363,
+      "lastRetrievedFromServer": 1363,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__searchRecordLWC/searchRecordLWC.js": {
+      "serverRevisionCounter": 1364,
+      "lastRetrievedFromServer": 1364,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__searchRecordLWC/searchRecordLWC.js-meta.xml": {
+      "serverRevisionCounter": 1365,
+      "lastRetrievedFromServer": 1365,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "Settings__Address": {
+      "serverRevisionCounter": 1339,
+      "lastRetrievedFromServer": null,
+      "memberType": "Settings",
+      "isNameObsolete": false
     }
   }
 }

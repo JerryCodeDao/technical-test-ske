@@ -68,6 +68,7 @@ global with sharing class RecordService {
         record.RecordType = 'Account';
         record.Counter = account.Counter__c;
         record.Id = account.Id;
+        record.ReferenceLink = '/lightning/r/Account/' + record.Id + '/view';
     }
 
     private static void initByContact(RecordModel record, Contact contact) {
@@ -75,5 +76,6 @@ global with sharing class RecordService {
         record.RecordType = 'Contact';
         record.Counter = contact.Counter__c;
         record.Id = contact.Id;
+        record.ReferenceLink = '/lightning/r/Contact/' + record.Id + '/view';
     }
 }

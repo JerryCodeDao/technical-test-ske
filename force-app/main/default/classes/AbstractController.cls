@@ -1,27 +1,23 @@
-global abstract with sharing class AbstractController {
-    public AbstractController() {
+public with sharing class AbstractController {
 
+    @AuraEnabled(cacheable = false)
+    public static String searchRecords(String name){
+        // final String calloutApis = 'https://ruby-enterprise-12442-dev-ed.lightning.force.com/services/apexrest/Records/Search';
+        // Http http = new Http();
+        // HttpRequest req = new HttpRequest();
+        // req.setEndpoint(calloutApis);
+        // req.setMethod('POST');
+        // req.setBody(jsonBody);
+        // HttpResponse resp = http.send(req);
+        APIWrapper results = new APIWrapper().withResults(RecordService.searchRecord(name));
+        String resp = JSON.serialize(results);
+        return resp;
     }
-    
-    // global class APIWrapper {
-    //     global List<Object> results;
-    //     global String errorMessage;
-    //     global Integer code;
 
-    //     global AbstractController.APIWrapper withResult(List<Object> results) {
-    //         this.results = results;
-    //         return this;
-    //     }
+    @AuraEnabled(cacheable = false)
+    public static String increasementCounterRecord(String id, String type) {
+        RecordModel record = RecordService.increaseCounter(id, type);
+        return searchRecords(record.RecordName);
+    }
 
-    //     global AbstractController.APIWrapper withCode(Integer code) {
-    //         this.code = code;
-    //         return this;
-    //     }
-
-
-    //     global AbstractController.APIWrapper withErrorMessage(String errorMessage) {
-    //         this.errorMessage = errorMessage;
-    //         return this;
-    //     }
-    // }
 }

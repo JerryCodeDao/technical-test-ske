@@ -1,6 +1,19 @@
 @RestResource(urlMapping = '/Records/Search/*')
 global with sharing class RecordsSearchController {
 
+    @HttpGet
+    global static void searchAllRecords() {
+        RestResponse response = RestContext.response;
+
+        APIWrapper result = new APIWrapper();
+
+        try {
+
+        } catch (Exception error) {
+            
+        }
+    }
+
     @HttpPost
     global static void searchRecords(String name) {
         //RestRequest request = RestContext.request;

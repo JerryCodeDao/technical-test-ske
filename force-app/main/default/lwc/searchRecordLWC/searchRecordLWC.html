@@ -1,0 +1,58 @@
+<template>
+    <lightning-card title="Search records include account and contact.">
+        <div class="slds-p-around_medium">
+            <lightning-input
+              type="text"
+              id="search_name"
+              name="search_name"
+              label="Enter your name:"
+              onchange={changeHandler}
+              value={search_name}
+            ></lightning-input>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-button label="Search Record Name" onclick={getRecords}></lightning-button>
+        </div>
+    
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_striped" aria-label="Example table of Opportunities with striped rows">
+            <thead>
+              <tr class="slds-line-height_reset">
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Record Name">Record Name</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Record Type">Record Type</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Counter">Counter</div>
+                </th>
+                <th class="" scope="col">
+                  <div class="slds-truncate" title="Ref">Ref</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+                <template for:each={records} for:item="record" for:index="index">
+                    <tr key={record.Id} class="slds-hint-parent">
+                        <th data-label="Record Name" scope="row">
+                            <div class="slds-truncate" title="Cloudhub">{record.RecordName}
+                            </div>
+                        </th>
+                        <td data-label="Record Type">
+                            <div class="slds-truncate">{record.RecordType}</div>
+                        </td>
+                        <td data-label="Counter">
+                            <div class="slds-truncate">{record.Counter}</div>
+                        </td>
+                        <td data-label="Ref">
+                            <div class="slds-truncate">
+                                <a href={record.ReferenceLink}>View</a> | 
+                                <lightning-button value={record.Id} name={record.RecordType} label="Increasement" onclick={handleIncreasementCounter}>Increasement</lightning-button>
+                            </div>
+                        </td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </lightning-card>
+</template>

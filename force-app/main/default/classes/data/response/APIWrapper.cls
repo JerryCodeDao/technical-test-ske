@@ -10,9 +10,12 @@ global with sharing class APIWrapper {
 
     }
 
-    global List<Object> results;
-    global String errorMessage;
-    global Integer code;
+    @AuraEnabled
+    public List<Object> results;
+    @AuraEnabled
+    public String errorMessage;
+    @AuraEnabled
+    public Integer code;
 
     global APIWrapper withResults(List<Object> results) {
         this.results = results;
